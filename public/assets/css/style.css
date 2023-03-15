@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #786619;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #57490e;
+  font-weight: bold;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+input[type="checkbox"], input[type="text"], textarea, input[type="email"], input[type="password"], input[type="number"], input[type="file"] {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 2px solid #dbd7d7 !important;
+}
+
+input[type="checkbox"]:checked, input[type="text"]:checked, textarea:checked, input[type="email"]:checked {
+  background-color: #000000 !important;
+}
+
+.wrapper {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 11px 1px #000000;
+          box-shadow: 1px 1px 11px 1px #000000;
+}
+
+.wrapper .header1 {
+  background-color: #f7f7f7;
+}
+
+.wrapper .header2 .social-media-icons div {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+.wrapper .header2 .social-media-icons div a:hover i {
+  font-weight: bold;
+}
+
+.wrapper #home-page {
+  width: 100%;
+}
+
+.wrapper #home-page .title {
+  border-bottom: 2px solid #c3c9c5 !important;
+}
+
+.wrapper #home-page .image {
+  padding: 10px;
+  overflow: hidden !important;
+}
+
+.wrapper #home-page .image img {
+  height: 100%;
+}
+
+.wrapper #home-page .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+.wrapper #products-page {
+  color: #777;
+}
+
+.wrapper #products-page .service-warranty, .wrapper #products-page .showroom, .wrapper #products-page .help, .wrapper #products-page .filter-type, .wrapper #products-page .filter-material {
+  background-color: #f7f7f7;
+}
+
+.wrapper #products-page .service-warranty ul, .wrapper #products-page .showroom ul, .wrapper #products-page .help ul, .wrapper #products-page .filter-type ul, .wrapper #products-page .filter-material ul {
+  list-style-type: none;
+}
+
+.search-div input:focus {
+  outline: none;
+}
+
+.search-div .search-btn {
+  top: 0;
+  right: 0;
+  background-color: #dbd7d7;
+  border: 2px solid #dbd7d7 !important;
+}
+
+.border-bottom-class {
+  border-bottom: 2px solid #c3c9c5;
+}
+
+footer {
+  background-color: #9b9b9b;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer #copyright {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+select {
+  border: 1px solid #c3c9c5 !important;
+}
+
+select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.star {
+  font-size: large;
+  color: red;
+}
+
+.pag-style ul li a{
+    color:#4a5568;
+    background-color: #fff !important;
+}
+.pag-style ul li a:hover{
+    color: #786619 !important;
+}
+.pag-style ul li a:focus{
+    box-shadow: none !important;
+}
+li.page-item.active > span {
+    color:#786619 !important;
+    border: 1px solid #c3c9c5 !important;
+    background-color: #c3c9c5 !important;
+
+}
+#products > div.pag-style.pt-2 > ul > li.page-item.active > a{
+    color:#786619 !important;
+    border: 1px solid #c3c9c5 !important;
+    background-color: #c3c9c5 !important;
+}
+
+.nn {
+  border: 2px solid red;
+}
+
+@media only screen and (max-width: 750px) {
+  .wrapper .header2 .logo {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .wrapper .header2 .social-media-icons {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .wrapper .header2 .logo {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .wrapper .header2 .search-div {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .wrapper .header1 p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
